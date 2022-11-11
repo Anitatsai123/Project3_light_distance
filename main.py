@@ -49,7 +49,7 @@ class Window(tk.Tk):
 
     def window_time(self):
         distance = data.getDistance()
-        print(distance)
+        # print(distance)
         if distance < 100.0: 
             print(f"距離:{distance:.2f}公分")
         else:
